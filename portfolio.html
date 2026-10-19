@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Studio Creative</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html">STUDIO<span>.</span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a class="active" href="portfolio.html">Portfolio</a>
+      <a href="videos.html">Videos</a>
+      <a href="reviews.html">Reviews</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-intro">
+      <p class="eyebrow">SELECTED CREATIVE WORK</p>
+      <h1>A closer look at <span>my designs.</span></h1>
+      <p class="lead">Explore visual concepts, branding and digital design.</p>
+    </section>
+
+    <section class="section">
+      <div class="filter-bar" aria-label="Filter projects">
+        <button class="filter-button selected" data-filter="all">All work</button>
+        <button class="filter-button" data-filter="poster">Posters</button>
+        <button class="filter-button" data-filter="branding">Branding</button>
+        <button class="filter-button" data-filter="social">Social media</button>
+        <button class="filter-button" data-filter="editorial">Editorial</button>
+      </div>
+
+      <div class="design-grid">
+        <article class="design-card" data-category="poster">
+          <div class="art art-poster"><span>MAKE<br>IT<br>MATTER.</span></div>
+          <h3>Campaign poster</h3>
+          <p>Poster design · Concept project</p>
+        </article>
+
+        <article class="design-card" data-category="branding">
+          <div class="art art-brand"><span>FORMA<br>STUDIO</span></div>
+          <h3>Forma visual identity</h3>
+          <p>Branding · Concept project</p>
+        </article>
+
+        <article class="design-card" data-category="social">
+          <div class="art art-social"><span>CREATE<br>YOUR<br>STORY.</span></div>
+          <h3>Social media campaign</h3>
+          <p>Digital graphics · Concept project</p>
+        </article>
+
+        <article class="design-card" data-category="editorial">
+          <div class="art art-editorial"><span>THE ART<br>OF LESS.</span></div>
+          <h3>Editorial cover</h3>
+          <p>Typography · Concept project</p>
+        </article>
+      </div>
+
+      <p class="small-note">These sample layouts demonstrate the gallery. Replace them with your original designs before presenting this portfolio to clients.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="index.html">STUDIO<span>.</span></a>
+    <p>© 2026 Studio Creative</p>
+    <a href="contact.html">Get in touch</a>
+  </footer>
+</body>
+</html>
